@@ -18,6 +18,7 @@ class QuoteMainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityQuoteMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        window.statusBarColor = getColor(R.color.appcolor)
 
         viewModel= ViewModelProvider(this,QuoteViewModelFactory(applicationContext))[QuoteViewModel::class.java]
 
