@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    tools:context=".quoteapp.QuoteMainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUOTIFY"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="28dp"
+        android:textStyle="bold"
+
+         android:textSize="25sp"
+        android:layout_marginHorizontal="12dp"
+        />
+
+
+    
+    <LinearLayout
+        android:id="@+id/quoteLyt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="22dp"
+        android:padding="12dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/bg_card"
+        >
+        <ImageView
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+             android:id="@+id/quoteImage"
+            android:src="@drawable/baseline_format_quote_24"
+            android:layout_margin="12dp"/>
+
+        <TextView
+            android:id="@+id/quoteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Model provider factory are used when we want to pass parameter in viewmodel"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="2dp"
+            android:textSize="20sp"
+            />
+
+        <TextView
+             android:id="@+id/authorTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rehman Malik"
+            android:layout_marginTop="22dp"
+            android:textColor="#333131"
+            android:layout_marginHorizontal="12dp"
+            android:textSize="18sp"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+   <LinearLayout
+       android:id="@+id/prevBtn"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       android:layout_margin="20dp"
+       >
+
+
+       <ImageView
+           android:layout_width="16dp"
+           android:layout_height="16dp"
+           android:src="@drawable/baseline_arrow_back_ios_24"
+           android:layout_marginTop="5dp"
+           app:tint="#BAB4B4" />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="PREVIOUS"
+           android:textSize="18sp"
+            android:layout_marginStart="-4dp"
+           android:textColor="#BAB4B4"
+           />
+
+
+   </LinearLayout>
+    <LinearLayout
+        android:id="@+id/nextBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="20dp"
+        >
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEXT"
+            android:textSize="18sp"
+            android:layout_marginEnd="-4dp"
+            android:textColor="#BAB4B4"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_navigate_next_24"
+            app:tint="#BAB4B4" />
+
+
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/shareBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_share_24"
+        android:backgroundTint="#BAB4B4"
+        app:layout_constraintTop_toBottomOf="@+id/quoteLyt"
+        app:layout_constraintEnd_toEndOf="@+id/quoteLyt"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="-24dp"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
