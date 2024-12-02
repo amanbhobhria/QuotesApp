@@ -24,7 +24,16 @@ Welcome to the Quotes App, a simple and elegant application for browsing, readin
    - Model: Manages the quotes data and logic.  
    - View: Displays the data through a simple and beautiful interface.  
    - ViewModel: Acts as a bridge between the View and the Model, ensuring proper separation of concerns.  
-   *Sharing Feature: Built-in functionality allows users to share quotes effortlessly.  
+   *Sharing Feature: Built-in functionality allows users to share quotes effortlessly.
+
+
+#ScreenShot
+![Screenshot_2024-12-02-17-57-08-19_f27fba3842df0240dd9c0a3fb8da63a7](https://github.com/user-attachments/assets/617d5a9f-7526-40dd-99c2-a9472db6ba68)
+![Screenshot_2024-12-02-17-57-08-19_f27fba3842df0240dd9c0a3fb8da63a7](https://github.com/user-attachments/assets/518d6d73-38b4-4aec-9358-66744f6c7139)
+![Screenshot_2024-12-02-17-57-22-87_c31b32364ce19ca8fcd150a417ecce58](https://github.com/user-attachments/assets/145a0721-23af-461d-a5ad-85e2c640a81a)
+
+
+
 
 
 
